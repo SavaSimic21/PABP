@@ -78,7 +78,7 @@ $conn->close();
 </head>
 <body>
     <div class="container mt-5">
-        <a href="index.php" class="btn btn-secondary back-button">Povratak</a>
+        <a href="index.php" class="btn btn-secondary back-button">Nazad</a>
         <h2><?php echo $user['username']; ?></h2>
         <form action="settings.php" method="post">
             <div class="btn-group-vertical">
